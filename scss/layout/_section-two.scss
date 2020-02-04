@@ -1,0 +1,10 @@
+.section-two {
+  background-color: $light-grey;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: ". form form";
+}
+
+.form-container {
+  grid-area: form;
+}

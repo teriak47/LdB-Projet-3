@@ -1,0 +1,49 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+header {
+  max-width: 1000px;
+  margin: auto;
+  padding: 1em;
+}
+
+.header_haut {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  h1 {
+    font-size: 1rem;
+  }
+
+}
+
+.menu-membre_liste {
+  margin: 0;
+  text-align: center;
+}
+
+.menu-membre_item {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  margin-left: 1em;
+}
+
+.menu {
+  margin: 0;
+  margin-top: 1em;
+}
+
+.menu_liste {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu_item {
+  display: inline;
+}

@@ -1,0 +1,24 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+}
+
+.txt-black {
+  color: $text-color;
+}
+
+.lire-plus {
+  color: $text-color;
+  font-size: 0.8em;
+
+  &:hover {
+    color: $link-color;
+  }
+}
+
+.info {
+  font-size: 0.5em;
+  color: $mid-grey;
+}

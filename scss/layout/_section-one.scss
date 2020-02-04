@@ -1,0 +1,80 @@
+.section-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "article-colum-one article-colum-two article-colum-tree";
+  padding: 5px;
+}
+
+.article-colum-one {
+  grid-area: article-colum-one;
+}
+
+.article-colum-two {
+  grid-area: article-colum-two;
+}
+
+.article-colum-tree {
+  grid-area: article-colum-tree;
+}
+
+.article-item {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: max-content max-content max-content max-content max-content;
+  grid-template-areas: "img img ." "titre titre titre" "p p p" "lire-plus . ." "info info .";
+
+  img {
+    grid-area: img;
+    height: 150px;
+  }
+
+  h4 {
+    grid-area: titre;
+    margin: 0;
+    margin-top: 1em;
+  }
+
+  p {
+    grid-area: p;
+  }
+
+  .lire-plus {
+    grid-area: lire-plus;
+  }
+
+  .info {
+    grid-area: info;
+  }
+}
+
+.article-item-mini {
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr 1fr;
+  grid-template-rows: 50px auto auto auto;
+  grid-template-areas: "img titre titre titre" "p p p p" "lire-plus lire-plus . ." "info info . .";
+
+  img {
+    grid-area: img;
+    height: 50px;
+  }
+
+  h4 {
+    grid-area: titre;
+    margin: 0;
+    margin-left: 1em;
+    justify-self: start;
+    align-self: start;
+  }
+
+  p {
+    grid-area: p;
+  }
+
+  .lire-plus {
+    grid-area: lire-plus;
+  }
+
+  .info {
+    grid-area: info;
+  }
+}
