@@ -19,7 +19,7 @@
 }
 
 .categorie-droite {
-  grid-area: cat-d
+  grid-area: cat-d;
 }
 
 .categorie .categorie-item {
@@ -77,4 +77,10 @@
   .info {
     grid-area: info;
   }
+}
+
+.nb {
+  font-size: 2em;
+  font-weight: 300;
+  color: $dark-grey;
 }

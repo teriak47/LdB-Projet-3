@@ -803,6 +803,27 @@ header {
   grid-area: info;
 }
 
+.nb {
+  font-size: 2em;
+  font-weight: 300;
+  color: #444444;
+}
+
+.form--email {
+  color: white;
+  border: none;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1em;
+  background-color: transparent;
+  padding: 13px;
+  margin-bottom: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: 0;
+  border-bottom: 1px solid #555;
+}
+
 .btn {
   text-align: center;
   vertical-align: middle;
@@ -818,20 +839,4 @@ header {
 .btn--black {
   background-color: #222222;
   color: #ededed;
-}
-
-.form--email {
-  color: white;
-  border: none;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  background-color: transparent;
-  padding: 13px;
-  margin-bottom: 15px;
-  width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  outline: 0;
-  border-bottom: 1px solid #555;
 }
