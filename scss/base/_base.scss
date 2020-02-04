@@ -1,18 +1,14 @@
 // -----------------------------------------------------------------------------
-// This file contains very basic styles.
+// Ce fichier contient les bases.
 // -----------------------------------------------------------------------------
 
-/**
- * Set up a decent box model on the root element
+/*
+ * Base du style
  */
 html {
   box-sizing: border-box;
 }
 
-
-/**
- * Basic styles for links
- */
 a {
   color: $link-color;
   text-decoration: none;

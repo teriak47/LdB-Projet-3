@@ -1,20 +1,26 @@
+/* Style du projet */
+
+// -----------------------------------------------------------------------------
+// Ce fichier contient l'importation des different fichier scss.
+// -----------------------------------------------------------------------------
+
 @charset 'UTF-8';
 
-// 1. Configuration and helpers
+// 1. Configuration & aide
 @import "abstracts/variables";
 @import "abstracts/functions";
 @import "abstracts/mixins";
 
-// 2. Vendors
+// 2. fichier exterieur
 @import "vendors/normalize";
 
-// 3. Base stuff
+// 3. Base
 @import "base/base";
 @import "base/fonts";
 @import "base/typography";
 @import "base/helpers";
 
-// 4. Layout-related sections
+// 4. Layout
 @import "layout/header";
 @import "layout/section-one";
 @import "layout/section-two";
@@ -25,8 +31,7 @@
 @import "components/form";
 @import "components/button";
 
-
-// 6. Page-specific styles
+// 6. page
 @import "pages/home";
 
 // 7. Themes
